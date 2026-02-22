@@ -1,0 +1,20 @@
+{
+  "name": "battleship-game",
+  "version": "1.0.0",
+  "description": "Battleship web game with AI opponent and three difficulty modes",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "simulate": "node tools/simulate.js",
+    "simulate:quick": "node tools/simulate.js --games 500"
+  },
+  "keywords": ["battleship", "game", "ai"],
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^3.0.0",
+    "@vitest/coverage-v8": "^3.0.0",
+    "jsdom": "^25.0.0"
+  }
+}
